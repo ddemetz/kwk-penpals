@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Unofficial Kode with Klossy Pen Pals</title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="signup.css">
+  </head>
+  <body>
+
+    <div class="sticker">
+      <img class="stickers" src="giphy.gif">
+    </div>
+
+
+    <div id = "sign-up-intro">
+      <h2>Add Code<h2>
+        <h3 id = "small-text">(to make sure you're part of the kwk community)</h3>
+      <input id="add-code" type="text" name="add-code" placeholder="add code">
+      <div id="add-code-help">
+        <h6>Where can I find an add code?</h6>
+        <center>
+        <p id= "add-drop">Ask for it directly by messaging <br><a href="http://www.instagram.com/dmdemetz">Dominique</a> or <a href="http://www.twitter.com/sofiaomegle">Sofia</a><br>OR<br>Ask someone in your camp / The KWK Fam GroupMe if they know!</p>
+      </center>
+      </div>
+      <button class ="submit" id ="submit">Continue</button>
+    </div>
+<center>
+    <div id="ask-name">
+      <h2>What's your preferred first name?</h2> <br>
+      <input id="name" type="text" name="name" placeholder="Name"><br>
+<button class ="submit" id ="name-submit">Continue</button>
+      <div></center>
+
+
+ <div id="camp-form">
+    <div id="camp-info">
+
+      <center>
+          <div id="say-name">
+            <h3 id="name-box">hehe</h3>
+</center>
+
+      <div id="year2020" class="years">
+        <h2>2020</h2>
+
+          <h4>Camp Location</h4>
+          <div class="custom-select">
+          <select id="city2020" name="city2020">
+            <option value="na" selected>N/A</option>
+            <option value="West Coast">West Coast</option>
+            <option value="Mountain">Mountain</option>
+            <option value="Midwest">Midwest</option>
+            <option value="East Coast">East Coast</option>
+            <option value="Community Camp">Community Camp</option>
+          </select>
+          </div>
+
+          <h4>Course</h4>
+            <div class="custom-select">
+              <select id="level2020" name="level2020">
+                <option value="na" selected>N/A</option>
+                <option value="Web Dev">Web Dev</option>
+                <option value="Mobile">Mobile</option>
+                <option value="Data Science">Data Science</option>
+              </select>
+            </div>
+
+      </div>
+
+      <div id="year2019" class="years">
+        <h2>2019</h2>
+
+          <h4>Camp Location</h4>
+          <div class="custom-select">
+          <select id="city2019" name="city2019">
+            <option value="na" selected>N/A</option>
+            <option value="Los Angeles">Los Angeles</option>
+            <option value="New York">New York</option>
+            <option value="St. Louis">St. Louis</option>
+            <option value="San Francisco">San Francisco</option>
+          </select>
+          </div>
+
+            <h4>Course</h4>
+            <div class="custom-select">
+              <select id="level2019" name="level2019">
+                <option value="na" selected>N/A</option>
+                <option value="Web Dev">Web Dev</option>
+                <option value="Mobile">Mobile</option>
+              </select>
+            </div>
+
+          </div>
+
+      <div id="year2018" class="years">
+        <h2>2018</h2>
+
+          <h4>Camp Location</h4>
+          <div class="custom-select">
+            <select id="city2018" name="city2018">
+              <option value="na" selected>N/A</option>
+              <option value="Los Angeles">Los Angeles</option>
+              <option value="New York">New York</option>
+              <option value="St. Louis">St. Louis</option>
+              <option value="San Francisco">San Francisco</option>
+            </select>
+          </div>
+
+            <h4>Course</h4>
+            <div class="custom-select">
+              <select id="level2018" name="level2018">
+                <option value="na" selected>N/A</option>
+                <option value="Back End">Back End</option>
+                <option value="Front End">Front End</option>
+                <option value="Mobile">Mobile</option>
+              </select>
+            </div>
+
+          </div>
+
+
+      <div id="year2017" class="years">
+        <h2>2017</h2>
+
+          <h4>Camp Location</h4>
+          <div class="custom-select">
+            <select id="city2017" name="city2017">
+              <option value="na" selected>N/A</option>
+              <option value="Los Angeles">Los Angeles</option>
+              <option value="New York">New York</option>
+              <option value="St. Louis">St. Louis</option>
+              <option value="San Francisco">San Francisco</option>
+            </select>
+            </div>
+
+              <h4>Course</h4>
+              <div class="custom-select">
+                <select id="level2017" name="level2017">
+                  <option value="na" selected>N/A</option>
+                  <option value="Level 1">Level 1</option>
+                  <option value="Level 2">Level 2</option>
+                </select>
+              </div>
+
+            </div>
+
+      <div id="year2016" class="years">
+        <h2>2016</h2>
+
+          <h4>Camp Location</h4>
+          <div class="custom-select">
+            <select id="city2016" name="city2016">
+              <option value="na" selected>N/A</option>
+              <option value="Los Angeles">Los Angeles</option>
+              <option value="New York">New York</option>
+              <option value="St. Louis">St. Louis</option>
+              <option value="San Francisco">San Francisco</option>
+            </select>
+            </div>
+
+            <h4>Course</h4>
+            <div class="custom-select">
+              <select id="level2016" name="level2016">
+                <option value="na" selected>N/A</option>
+                <option value="ruby">Ruby</option>
+              </select>
+            </div>
+
+          </div>
+
+          <div class="years">
+            <h2>IA</h2>
+
+              <h4>Are you or have you been<br>an IA in the past?</h4>
+              <p>
+                <input type="radio" name="ia" value=true>Yes</input>
+                <input type="radio" name="ia" value=false>No</input>
+              </p>
+              <br>
+
+                </div>
+                <br>
+  <button class ="submit" id ="next">Next</button>
+              </div>
+
+  </div>
+</div>
+<center>
+<div id="profile-info">
+  <div class="blocking">
+      <p id=name-info>Hi, it's Dominique! This site is still in progress and you're not able to edit info at the moment so please make sure everything is accurate before continuing! Thanks!</p>
+  </div>
+  <br>
+  <div class="blocking">
+  <h4>Sign Up</h4>
+  <input type="text" id="given-name" name="given-name" placeholder="First Name" required><br>
+  <p id=name-info>Note: This name will appear on your mail. Please make sure it is appropriate and you can safely use this name at home.</p>
+  <input type="text" id="family-name" name="family-name" placeholder="Last Name" required><br>
+  <input type="text" id="sex" name="sex" placeholder="Gender Identity" required><br>
+      <input type="text" id="user" name="user" placeholder="Username" required><br>
+    <input type="text" id="email" name="email" placeholder="Email" required><br>
+  <input type="text" id="password" name="password" placeholder="Password" required><br>
+    <input type="text"id="password-confirm"  name="password-confirm" placeholder="Confirm Password" required><br>
+    <p id=pass-info>Passwords do not match.</p>
+</div>
+<br>
+<div class="blocking" id="address">
+<h4>Address</h4>
+<p id=name-info>So your match will have your address!</p>
+  <input type="text" id="address-line-1" name="address-line1" placeholder="Address Line 1" required><br>
+  <input type="text" id="address-line-2" name="address-line2" placeholder="Address Line 2"><br>
+    <input type="text" id="address-level-2" name="address-level2" placeholder="City" required><br>
+  <input type="text" id="address-level-1" name="address-level1" placeholder="State/Province" required><br>
+  <input type="text" id="postal-code" name="postal-code" placeholder="Postal Code" required><br>
+  <input type="text" id="country" name="country" placeholder="Country" required><br>
+  </div>
+  <br>
+  <button class ="submit" id ="next2">Continue</button>
+</div>
+</center>
+
+<div id="about-info">
+<h3 id="about-title">
+  Lastly, how can your pen pal stalk you (in a not-creepy way)
+</h3>
+
+<!-- <div class="questionnaire">
+  <label>What is one place you want to visit?
+    <input type="text" id="about_visit">
+  </label>
+</div>
+
+<div class="questionnaire">
+  <label>What is one thing you can't live without?
+    <input type="text" id="about-onething">
+  </label>
+</div>
+
+<div class="questionnaire">
+  <label>What's your favorite movie of all time?
+    <input type="text" id="about-movie">
+  </label>
+</div>
+
+<div class="questionnaire">
+  <label>What's your dream job? (And this isn't the time to be humble)<br>
+    <input type="text" id="about-">
+  </label>
+</div>
+
+<div class="questionnaire">
+  <label>
+    <input type="text" id="about-">
+  </label>
+</div> -->
+
+
+
+<div class="questionnaire">
+  <label>instagram.com/<br>
+    <input type="text" id="instagram-link">
+  </label>
+</div>
+<div class="questionnaire">
+  <label>twitter.com/<br>
+    <input type="text" id="twitter-link">
+  </label>
+</div>
+<div class="questionnaire">
+  <label>Linkedin.com/in/<br>
+    <input type="text" id="twitter-link">
+  </label>
+  <br>
+</div>
+<div class="questionnaire">
+  <label>Portfolio:<br>
+    <input type="text" id="twitter-link">
+  </label>
+</div>
+<br>
+<button class ="submit" id ="next3">Continue</button>
+
+</div>
+
+<div id="next-steps">
+  <h2> Yay! You're now enrolled into the pen pal program!
+  <div id="next-steps-container">
+  <div id="step-1" class="steps">
+    <h3>Come back between (month-name) 1st and 6th to see the prompt for the month!<h3>
+      <img src="">
+  </div>
+  <div id="step-2" class="steps">
+    <h3>Fill out the personality quiz to help your match get to know you better!<h3>
+      <img src="">
+  </div>
+  <div id="step-3" class="steps">
+    <h3>Confirm that you'll be participating and promise to send a letter!<h3>
+      <img src="">
+  </div>
+  <div id="step-4" class="steps">
+    <h3>Come back on the 7th to see who you'll be sending/recieving a letter from!<h3>
+      <img src="">
+  </div>
+  <div id="step-5" class="steps">
+    <h3>Send your letter and (hopefully) stay in touch!<h3>
+      <img src="">
+  </div>
+</div>
+
+<a href="index.html"><button class ="submit">Finish</button></a>
+
+</div>
+
+
+
+
+
+<script>
+
+var signUpIntro = $('#sign-up-intro')
+var campForm = $('#camp-form')
+var addDrop=$("#add-drop")
+var profileInfo = $("#profile-info")
+var aboutInfo = $("#about-info")
+
+// addcode thing we need to pull the addcode from firebase
+
+$("h6").on("click", function(){
+  addDrop.css("display", "block")
+})
+
+$('#submit').on("click", function(){
+  addcode = $('#add-code').val()
+  if (addcode == "hehe"){
+    signUpIntro.fadeOut("fast", function(){
+    $('#ask-name').fadeIn()})}
+  else{alert("wrong add code!")}
+})
+
+// takes in name
+
+$("#name-submit").on("click", function(){
+  var name = $("#name").val()
+
+if (name == ""){
+  alert("Can I ask your name? Just so we know what to call you!")
+}
+
+else{
+
+
+  var nameBox = $("#name-box").text(`Welcome, ${name}! Let's get some info from you so other campers can get to know you better!`)
+
+  $('#ask-name').fadeOut("fast", function(){
+  campForm.fadeIn(
+  )})
+
+}
+})
+
+// collects data
+
+
+$('#next').on("click", function(){
+
+for (var option of document.getElementById("city2016").options){
+  if (option.selected){ var city2016 = option.value }
+}
+
+for (var option of document.getElementById("city2017").options){
+  if (option.selected){ var city2017 = option.value }
+}
+
+for (var option of document.getElementById("city2018").options){
+  if (option.selected){ var city2018 = option.value }
+}
+
+for (var option of document.getElementById("city2019").options){
+  if (option.selected){ var city2019 = option.value }
+}
+
+for (var option of document.getElementById("city2020").options){
+  if (option.selected){ var city2020 = option.value }
+}
+
+
+for (var option of document.getElementById("level2016").options){
+  if (option.selected){ var level2016 = option.value }
+}
+
+for (var option of document.getElementById("level2017").options){
+  if (option.selected){ var level2017 = option.value }
+}
+
+for (var option of document.getElementById("level2018").options){
+  if (option.selected){ var level2018 = option.value }
+}
+
+for (var option of document.getElementById("level2019").options){
+  if (option.selected){ var level2019 = option.value }
+}
+
+for (var option of document.getElementById("level2020").options){
+  if (option.selected){ var level2020 = option.value }
+}
+
+var ia = $("input[name='ia']:checked").val();
+
+
+if (city2016 == "na" && city2017 == "na" && city2018 == "na" && city2019 == "na" && city2020 == "na" && level2016 == "na" && level2017 == "na" && level2018 == "na" && level2019 == "na" && level2020 == "na"){
+  alert("Please add at least one camp!")
+}
+else if (city2016 != "na" && level2016 == "na" || city2016 == "na" && level2016 != "na" || city2017 != "na" && level2017 == "na" || city2017 == "na" && level2017 != "na" || city2018 != "na" && level2018 == "na" || city2018 == "na" && level2018 != "na"){
+  alert ("Make sure you unclude both your camp location and course!")
+}
+
+ else if (city2019 != "na" && level2019 == "na" || city2019 == "na" && level2019 != "na" || city2020 != "na" && level2020 == "na" || city2020 == "na" && level2020 != "na" ){
+   alert ("Make sure you unclude both your camp location and course!")
+ }
+
+else if (ia == undefined){
+  alert ("Don't forget the IA question at the bottom!")
+
+}
+
+else{
+campForm.fadeOut("fast", function(){
+  $("html, body").animate({
+        scrollTop: 0
+    }, 10);
+profileInfo.fadeIn()})
+}
+
+})
+
+$("#next2").on("click", function(){
+
+var firstName = $("#given-name").val()
+var familyName = $("#family-name").val()
+var gender = $("#sex").val()
+var email = $("#email").val()
+var user = $("#user").val()
+var pass = $("#password").val()
+var confirmPass = $("#password-confirm").val()
+
+var address1 = $("#address-line-1").val()
+var address2 = $("#address-line-2").val()
+var addressL2 = $("#address-level-2").val()
+var addressL1 = $("#address-level-1").val()
+var postalCode = $("#postal-code").val()
+var country = $("#country").val()
+
+var hasNumber = /\d/
+
+var logInForm= [firstName, familyName, user, gender, email, pass, confirmPass, address1, addressL2, addressL1, postalCode]
+
+
+// for (i = 0; i < logInForm.length; i++ ){
+//   if (logInForm[i] == ""){
+//     alert("Please fill out all fields!!")
+//     break
+//   }
+//
+// }
+//
+// if (email.includes("@")==false || email.includes(".")==false){
+//   alert("Please enter a valid email address.")
+// }
+// else if(pass.length < 6 || hasNumber.test(pass)==false){
+//   alert("Please choose a stronger password, you're a programmer and I shouldn't have to tell you this :/")
+//
+// }
+// else if (pass != confirmPass){
+//   alert("Make sure your passwords match!")
+// }
+//
+// else{
+// profileInfo.fadeOut("fast", function(){
+//   $("html, body").animate({
+//         scrollTop: 0
+//     }, 10);
+// aboutInfo.fadeIn()})
+// }
+
+
+profileInfo.fadeOut("fast", function(){
+  $("html, body").animate({
+        scrollTop: 0
+    }, 10);
+aboutInfo.fadeIn()})
+
+})
+
+$("#next3").on("click", function(){
+
+  aboutInfo.fadeOut("fast", function(){
+    $("html, body").animate({
+          scrollTop: 0
+      }, 10);
+$("#next-steps").fadeIn()})
+
+  })
+
+</script>
+
+<!-- DROPDOWNS -->
+
+<script>
+
+var x, i, j, l, ll, selElmnt, a, b, c;
+/* Look for any elements with the class "custom-select": */
+x = document.getElementsByClassName("custom-select");
+l = x.length;
+for (i = 0; i < l; i++) {
+  selElmnt = x[i].getElementsByTagName("select")[0];
+  ll = selElmnt.length;
+  /* For each element, create a new DIV that will act as the selected item: */
+  a = document.createElement("DIV");
+  a.setAttribute("class", "select-selected");
+  a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
+  x[i].appendChild(a);
+  /* For each element, create a new DIV that will contain the option list: */
+  b = document.createElement("DIV");
+  b.setAttribute("class", "select-items select-hide");
+  for (j = 1; j < ll; j++) {
+    /* For each option in the original select element,
+    create a new DIV that will act as an option item: */
+    c = document.createElement("DIV");
+    c.innerHTML = selElmnt.options[j].innerHTML;
+    c.addEventListener("click", function(e) {
+        /* When an item is clicked, update the original select box,
+        and the selected item: */
+        var y, i, k, s, h, sl, yl;
+        s = this.parentNode.parentNode.getElementsByTagName("select")[0];
+        sl = s.length;
+        h = this.parentNode.previousSibling;
+        for (i = 0; i < sl; i++) {
+          if (s.options[i].innerHTML == this.innerHTML) {
+            s.selectedIndex = i;
+            h.innerHTML = this.innerHTML;
+            y = this.parentNode.getElementsByClassName("same-as-selected");
+            yl = y.length;
+            for (k = 0; k < yl; k++) {
+              y[k].removeAttribute("class");
+            }
+            this.setAttribute("class", "same-as-selected");
+            break;
+          }
+        }
+        h.click();
+    });
+    b.appendChild(c);
+  }
+  x[i].appendChild(b);
+  a.addEventListener("click", function(e) {
+    /* When the select box is clicked, close any other select boxes,
+    and open/close the current select box: */
+    e.stopPropagation();
+    closeAllSelect(this);
+    this.nextSibling.classList.toggle("select-hide");
+    this.classList.toggle("select-arrow-active");
+  });
+}
+
+function closeAllSelect(elmnt) {
+  /* A function that will close all select boxes in the document,
+  except the current select box: */
+  var x, y, i, xl, yl, arrNo = [];
+  x = document.getElementsByClassName("select-items");
+  y = document.getElementsByClassName("select-selected");
+  xl = x.length;
+  yl = y.length;
+  for (i = 0; i < yl; i++) {
+    if (elmnt == y[i]) {
+      arrNo.push(i)
+    } else {
+      y[i].classList.remove("select-arrow-active");
+    }
+  }
+  for (i = 0; i < xl; i++) {
+    if (arrNo.indexOf(i)) {
+      x[i].classList.add("select-hide");
+    }
+  }
+}
+document.addEventListener("click", closeAllSelect);
+</script>
+
+<!-- FIREBASE -->
+
+<script src="https://www.gstatic.com/firebasejs/7.22.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.22.1/firebase-analytics.js"></script>
+
+<script>
+
+  var firebaseConfig = {
+    apiKey: "AIzaSyA6YBh9GOg4yKPwkpAzHwXMcXR-gAroVMk",
+    authDomain: "kwk-penpals.firebaseapp.com",
+    databaseURL: "https://kwk-penpals.firebaseio.com",
+    projectId: "kwk-penpals",
+    storageBucket: "kwk-penpals.appspot.com",
+    messagingSenderId: "344849959733",
+    appId: "1:344849959733:web:8300273b875501038c5a7c",
+    measurementId: "G-R0VBS3LQL7"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+
+</script>
+
+
+  </body>
+</html>

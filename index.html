@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Unofficial Kode with Klossy Pen Pals</title>
+     <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="sticker">
+      <img class="sticker" src="giphy.gif">
+    </div>
+    <div id="in">
+      <button class="landing-actions" id="login">Log In</button>
+      <a href= "signup.html"><button class="landing-actions">Sign Up</button></a>
+      <h3>*unofficial & entirely alum made and ran</h3>
+    </div>
+
+    <div id = "login-elements">
+      <input type="text" name="username" id="username" placeholder="username" required>
+      <br>
+      <input type="password" name = "password" id="password" placeholder="password" required><br>
+      <button id="login2">Log In</button>
+      <a href= "signup.html"><h4>Sign Up Instead</h4></a>
+    </div>
+
+    <div id = "main-elements">
+      <div id= "profile">
+      <div id= "profile-picture">
+        </div>
+      <div id= "profile-info">
+        <h3> Name:</h3>
+          <h4 id="name"> Name Val </h4>
+        <h3> Grade:</h3>
+          <h4 id="grade"> Grade Val </h4>
+        <h3> Camp Location:</h3>
+          <h4 id="location"> Location Val </h4>
+      </div>
+      <div id= "info">
+        <img src="instagram.png">
+        <img src="twitter.png">
+        <h3> Address:</h3>
+          <h4 id="address"> Address </h4>
+          </div>
+        </div>
+    </div>
+
+
+
+
+
+
+<footer>
+  <h5> © 2020 by Dominique </h5>
+</footer>
+<script>
+var loginElements = $("#login-elements")
+var mainElements = $("#main-elements")
+var login = $("#login")
+var landingActions=$(".landing-actions")
+var indiv=$("#in")
+var loginAgain = $("#login2")
+
+login.on("click", function(){
+  indiv.fadeOut("fast", function(){
+  loginElements.fadeIn()
+  })
+})
+
+var accounts= {
+    dominique: {
+            password:"hehe",
+            favecolor:"lilac",
+            codinglang:"ruby",
+          }
+              }
+
+
+loginAgain.on("click", function(){
+var user=$("#username").val()
+var pass=$("#password").val()
+
+if (user in accounts){
+  loginElements.fadeOut("fast", function(){
+  mainElements.fadeIn()})
+}
+})
+
+
+
+</script>
+
+
+  </body>
+</html>
